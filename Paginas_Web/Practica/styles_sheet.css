@@ -1,0 +1,68 @@
+:root{
+    --blanco: #ffffff;
+    --Oscuro: #212121;
+    --Primario: #ffc107;
+    --Gris: #757575;
+    --Secundario:#0097A7;
+
+
+}
+
+html{
+font-size:62.5%;
+
+}
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.Titulo_Principal{
+    text-align: center;
+    font-size: 3.8rem ;
+    color: var(--Primario);
+    font-weight: 400;
+}
+span.Titulo_Principal {
+    font-size: 2rem;
+}
+.Titulo_Secundario{
+    text-align: center;
+    font-size: 3.8rem ;
+}
+
+
+.contenedor{
+
+    width: 120rem;
+    margin: 0 auto ;
+}
+
+.nav-estilo{
+background-color: var(--Secundario);
+
+}
+
+.navegacion-principal 
+{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navegacion-principal a 
+{
+    font-size: 2rem;
+    color: var(--blanco);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navegacion-principal a:hover
+{
+    background-color: var(--Primario);
+    color: var(--blanco); 
+    padding: 20px;
+
+}
